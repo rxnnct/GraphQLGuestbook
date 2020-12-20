@@ -12,7 +12,7 @@
 	<artifactId>GraphQLGuestbook</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>GraphQLGuestbook</name>
-	<description>Test project for Spring Boot with GraphQL. This is a simple guestbook.</description>
+	<description>Simple demo Spring application with GraphQL. This is a small guestbook.</description>
 
 	<properties>
 		<java.version>11</java.version>

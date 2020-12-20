@@ -10,14 +10,14 @@
 ### Path:
 /graphiql
 
-###Create message mutation:
+### Create message mutation:
 mutation {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;createMessage(author: "NAME", text: "TEXT") {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id<br>
 &nbsp;&nbsp;&nbsp;&nbsp;}<br>
 }<br>
 
-###Get message query:
+### Get message query:
 query {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;messages(count: 2) {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id,<br>
