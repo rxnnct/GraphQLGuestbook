@@ -5,7 +5,6 @@ import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.time.LocalDate;
 
 @Data
 @EqualsAndHashCode
@@ -21,10 +20,5 @@ public class Message implements Serializable {
     @Column(name = "text")
     private String text;
     @Column(name = "creation_date")
-    private LocalDate creationDate;
-    private transient String formattedDate;
-
-    public String getFormattedDate() {
-        return getCreationDate().toString();
-    }
+    private String creationDate;
 }

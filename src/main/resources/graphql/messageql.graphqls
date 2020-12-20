@@ -1,0 +1,12 @@
+type Message {
+id: ID!,
+author: String,
+text: String,
+creationDate: String
+}
+type Query {
+messages(count: Int):[Message]
+}
+type Mutation {
+createMessage(author: String!, text: String!):Message
+}
